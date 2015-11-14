@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2F0383691BF710060006388D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0383681BF710060006388D /* AppDelegate.swift */; };
-		2F03836B1BF710060006388D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03836A1BF710060006388D /* ViewController.swift */; };
+		2F03836B1BF710060006388D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03836A1BF710060006388D /* AddViewController.swift */; };
 		2F03836E1BF710060006388D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F03836C1BF710060006388D /* Main.storyboard */; };
 		2F0383701BF710060006388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F03836F1BF710060006388D /* Assets.xcassets */; };
 		2F0383731BF710060006388D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0383711BF710060006388D /* LaunchScreen.storyboard */; };
 		2F03837E1BF710060006388D /* Scavenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F03837D1BF710060006388D /* Scavenger_HuntTests.swift */; };
 		2F0383891BF710060006388D /* Scavenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0383881BF710060006388D /* Scavenger_HuntUITests.swift */; };
+		2F0383971BF729A80006388D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0383961BF729A80006388D /* ListViewController.swift */; };
+		2FE6C3341BF73FC50055B6AD /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6C3331BF73FC50055B6AD /* ScavengerHuntItem.swift */; };
+		2FE6C3361BF755D80055B6AD /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6C3351BF755D80055B6AD /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2F0383651BF710060006388D /* Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0383681BF710060006388D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F03836A1BF710060006388D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F03836A1BF710060006388D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		2F03836D1BF710060006388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F03836F1BF710060006388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0383721BF710060006388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		2F0383841BF710060006388D /* Scavenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0383881BF710060006388D /* Scavenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavenger_HuntUITests.swift; sourceTree = "<group>"; };
 		2F03838A1BF710060006388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0383961BF729A80006388D /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2FE6C3331BF73FC50055B6AD /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		2FE6C3351BF755D80055B6AD /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				2F0383681BF710060006388D /* AppDelegate.swift */,
-				2F03836A1BF710060006388D /* ViewController.swift */,
+				2F03836A1BF710060006388D /* AddViewController.swift */,
 				2F03836C1BF710060006388D /* Main.storyboard */,
+				2FE6C3331BF73FC50055B6AD /* ScavengerHuntItem.swift */,
+				2FE6C3351BF755D80055B6AD /* ItemsManager.swift */,
+				2F0383961BF729A80006388D /* ListViewController.swift */,
 				2F03836F1BF710060006388D /* Assets.xcassets */,
 				2F0383711BF710060006388D /* LaunchScreen.storyboard */,
 				2F0383741BF710060006388D /* Info.plist */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					2F0383641BF710060006388D = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SKSUJUDY2Z;
 					};
 					2F0383781BF710060006388D = {
 						CreatedOnToolsVersion = 7.1;
@@ -256,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F03836B1BF710060006388D /* ViewController.swift in Sources */,
+				2F03836B1BF710060006388D /* AddViewController.swift in Sources */,
 				2F0383691BF710060006388D /* AppDelegate.swift in Sources */,
+				2FE6C3341BF73FC50055B6AD /* ScavengerHuntItem.swift in Sources */,
+				2F0383971BF729A80006388D /* ListViewController.swift in Sources */,
+				2FE6C3361BF755D80055B6AD /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +412,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scavenger Hunt/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scavenger-Hunt";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Scavenger-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,10 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scavenger Hunt/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scavenger-Hunt";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Scavenger-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -486,6 +501,7 @@
 				2F03838F1BF710060006388D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0383901BF710060006388D /* Build configuration list for PBXNativeTarget "Scavenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +510,7 @@
 				2F0383921BF710060006388D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F0383931BF710060006388D /* Build configuration list for PBXNativeTarget "Scavenger HuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +519,7 @@
 				2F0383951BF710060006388D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
